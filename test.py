@@ -478,7 +478,7 @@ def randm(ids,psd):
                 ok.append(uid)
                 break
             else:continue
-        loop+=50
+        loop+=1
     except Exception as e:
         pass
           
