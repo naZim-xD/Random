@@ -447,7 +447,7 @@ def randm(ids,psd):
             'fb_api_req_friendly_name':'authenticate',
             'api_key':'62f8ce9f74b12f84c123cc23437a4a32',
             'access_token':'350685531728|62f8ce9f74b12f84c123cc23437a4a32'}
-            head={'User-Agent':'[FBAN/FB4A;FBAV/"+str(random.randint(11,77))+'.0.0.'+str(random.randrange(9,49))+str(random.randint(11,77)) +";FBBV/"+str(random.randint(1111111,7777777))+";'[FBAN/FB4A;FBAV/59.0.0.15.313;FBBV/20097172;FBDM/{density=1.5,width=540,height=960};FBLC/en_US;FBCR/Airtel;FBMF/Samsung;FBBD/Samsung;FBPN/com.facebook.katana;FBDV/L-EMENT500;FBSV/4.4.2;nullFBCA/armeabi-v7a:armeabi;]',
+            head={'User-Agent':'Dalvik/2.1.0 (Linux; U; Android 8.0.0; SM-A720F Build/R16NW) [FBAN/Orca-Android;FBAV/196.0.0.29.99;FBPN/com.facebook.orca;FBLC/th_TH;FBBV/135374479;FBCR/AIS;FBMF/samsung;FBBD/samsung;FBDV/SM-A720F;FBSV/8.0.0;FBCA/armeabi-v7a:armeabi;FBDM/{density=3.0,width=1080,height=1920};FB_FW/1;]',
             'Accept-Encoding':'gzip, deflate',
             'Connection':'close',
             'Content-Type':'application/x-www-form-urlencoded',
